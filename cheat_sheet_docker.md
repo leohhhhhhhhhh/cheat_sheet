@@ -40,10 +40,11 @@
 1. **編譯 Image**:
    `docker build -t 專案名稱:版本號 .`
 2. **執行並進入互動模式**:
-   `docker run -it --name 容器名 專案名稱:版本號 bash`
-3. **從容器抓檔案出來 (拿成果)**:
+   ***可互動的***:`docker run -it --name 容器名 專案名稱:版本號 bash`
+   ***不可互動的***:`docker run --name 容器名 專案名稱:版本號`
+4. **從容器抓檔案出來 (拿成果)**:
    `docker cp 容器名:/app/結果.png ./本地路徑.png`
-4. **指定要開啟哪個dockerfile**:
+5. **指定要開啟哪個dockerfile**:
    `docker build -f 哪個Dockerfile -t 專案名稱:版本號 .`
 ---
 
