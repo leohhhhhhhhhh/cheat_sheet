@@ -41,7 +41,8 @@
    `docker run -it --name 容器名 專案名稱:版本號 bash`
 3. **從容器抓檔案出來 (拿成果)**:
    `docker cp 容器名:/app/結果.png ./本地路徑.png`
-
+4. **指定要開啟哪個dockerfile**:
+   `docker build -f 哪個Dockerfile -t 專案名稱:版本號 .`
 ---
 
 ##  五、 Python OpenCV Dockerfile 模板 (D槽專用)
