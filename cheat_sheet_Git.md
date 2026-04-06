@@ -46,3 +46,4 @@ git push
 2. **查看歷史紀錄**: `git log --oneline`
 3. **查看目前分支**: `git branch`
 4. **強制覆蓋雲端**: `git push -f`
+5. **改了哪幾行程式碼**: `git diff` (跳出按q)
