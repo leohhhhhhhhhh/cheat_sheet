@@ -32,6 +32,8 @@
 - **啟動容器**: `docker start <ContainerID或名稱>`
 - **重新鑽進去操作**: `docker exec -it <ContainerID或名稱> bash`
 
+### 4. 如果容器壞掉了要重用
+- **移除壞掉的**:`docker rm 容器名稱`
 ---
 
 ##  四、 Build & Run 實戰流程
