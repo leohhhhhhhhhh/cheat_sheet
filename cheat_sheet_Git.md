@@ -1,4 +1,4 @@
-#  Git & GitHub 實戰備忘錄 (NTUT CSIE 整合版)
+#  Git & GitHub 
 
 ##  一、 專案開工：連結 GitHub 遠端倉庫
 *在本地建好資料夾，想要連到 GitHub 新建立的 Repository 時。*
